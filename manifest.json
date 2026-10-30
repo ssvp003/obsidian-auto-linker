@@ -1,8 +1,8 @@
 {
-  "id": "obsidian-auto-linker",
-  "name": "Auto Linker",
+  "id": "obsidian-auto-rename-linker",
+  "name": "Auto Rename Linker",
   "version": "1.0.0",
-  "minAppVersion": "0.15.0",
+  "minAppVersion": "1.14.5",
   "description": "Automatically completes aliases for internal links to canvases or headers.",
   "author": "ssvp003",
   "isDesktopOnly": false
