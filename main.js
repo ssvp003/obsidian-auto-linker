@@ -7,7 +7,7 @@ const DEFAULT_SETTINGS = {
 
 module.exports = class AutoLinkerPlugin extends Plugin {
     async onload() {
-        console.log('Loading Auto Linker Plugin');
+        console.log('Loading Auto Rename Linker Plugin');
 
         // 設定のロード
         await this.loadSettings();
@@ -77,7 +77,7 @@ module.exports = class AutoLinkerPlugin extends Plugin {
     }
 
     onunload() {
-        console.log('Unloading Auto Linker Plugin');
+        console.log('Unloading Auto Rename Linker Plugin');
     }
 
     // 設定データを読み込む関数
